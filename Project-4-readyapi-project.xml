@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="c523b803-3510-406d-9a1e-be2dae5405f1" created="3.0.0" activeEnvironment="Default environment" name="Faaaail" updated="3.0.0 2019-11-05T14:42:03Z" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="40d0a0ba-85c1-4b2f-ba09-9d3e85fc99b3" created="3.2.0" activeEnvironment="Default environment" name="Project 4" resourceRoot="" updated="3.2.0 2020-04-06T18:44:59Z" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
-  <con:testSuite id="130a2ecd-a53d-4022-82d7-3ea8434dc66e" name="TestSuite 1">
+  <con:testSuite id="0f3256ce-feba-479e-b631-d7a70333f509" name="TestSuite 1">
     <con:settings/>
-    <con:savedRecentRuns>1</con:savedRecentRuns>
     <con:runType>SEQUENTIAL</con:runType>
-    <con:testCase id="1394a836-6f60-46db-847c-63366e886b86" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0">
+    <con:testCase id="9707e296-2570-4b03-88fe-9b3e2d67245d" discardOkResults="false" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0">
       <con:settings/>
-      <con:savedRecentRuns>1</con:savedRecentRuns>
-      <con:testStep type="groovy" name="Groovy Script" id="a5a11f94-1537-47ae-a3c0-dbf10f80c0c4">
+      <con:testStep type="delay" name="Delay" id="f196fa33-7a2e-4457-9594-c1738edb1b06">
         <con:settings/>
         <con:config>
-          <script>throw new RuntimeException("failing is fun")</script>
+          <delay>1000</delay>
         </con:config>
       </con:testStep>
       <con:properties/>
@@ -35,13 +33,13 @@
 // This code is often used for adding custom authentication to SoapUI Pro tests
 
 // If hardcoding the token, uncomment and change line 5
-// def token = '4567'
+// token = '4567'
 
 // If your token is parameterized in Project level custom property, uncomment line 8
-// def token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
+// token = request.parent.testCase.testSuite.project.getProperty('auth_token').getValue()
 
 // To modify all outgoing calls, remove comments from lines 11 to 16
-// def headers = request.requestHeaders
+// headers = request.requestHeaders
 // if (headers.containsKey('auth_token2') == false) {
 //   headers.put('auth_token2', token)
 //   request.requestHeaders = headers
@@ -53,8 +51,8 @@
 // then uncomment lines 5 to 10
 
 // filePath = 'C:\\tempOutputDirectory\\'
-// fos = new FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
-// pw = new PrintWriter(fos)
+// fos = new java.io.FileOutputStream(filePath + testStepResult.testStep.label + '.txt', true)
+// pw = new java.io.PrintWriter(fos)
 // testStepResult.writeTo(pw)
 // pw.close()
 // fos.close()</con:script>
