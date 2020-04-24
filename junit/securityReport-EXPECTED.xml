@@ -1,36 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites>
-    <properties>
-        <property name="testjobId" value="051ffd69-dcbe-43eb-8e8f-ba6c96850c2b"/>
-        <property name="status" value="FAILED"/>
-        <property name="jobType" value="SECURITY_TEST"/>
-        <property name="message" value="Failed security scan"/>
-    </properties>
-    <testsuite name="Security Test Project.Fail" tests="5" failures="2" errors="0" time="12.241">
-        <testcase name="HTTP Request / Fuzzing Scan" time="2.229"/>
-        <testcase name="HTTP Request / HTTP Method Fuzzing" time="2.334">
-            <failure type="Failed security scan" message="Failed security scan">
-                <![CDATA[<h3>
-        <b>Failed</b>
-      </h3>
-      <pre>Sensitive Information Exposure: [Stacktrace] Can give hackers information about which software or language you are using - Token [(?s).*(s|S)tack:.*] found [Stack:]</pre>
-      <hr/>
-      <pre>Valid HTTP Status Codes: Response status code: 200 is not in acceptable list of status codes</pre>
-      <hr/>]]>
-            </failure>
-        </testcase>
-        <testcase name="Copy of HTTP Request / Fuzzing Scan" time="2.199"/>
-        <testcase name="Copy of HTTP Request / HTTP Method Fuzzing" time="2.342">
-            <failure type="Failed security scan" message="Failed security scan">
-                <![CDATA[<h3>
-      <b>Failed</b>
-    </h3>
-    <pre>Sensitive Information Exposure: [Stacktrace] Can give hackers information about which software or language you are using - Token [(?s).*(s|S)tack:.*] found [Stack:]</pre>
-    <hr/>
-    <pre>Valid HTTP Status Codes: Response status code: 200 is not in acceptable list of status codes</pre>
-    <hr/>]]>
-            </failure>
-        </testcase>
-        <testcase name="Another Copy of HTTP Request / SQL Injection" time="3.137"/>
-    </testsuite>
-</testsuites>
+<testsuites><properties><property name="testjobId" value="acb7ddb2-530f-4b62-992e-79d94903af0b"/><property name="status" value="FINISHED"/><property name="jobType" value="SECURITY_TEST"/></properties><testsuite name="scanProject-1-PASS.SecurityTest 1" tests="5" failures="0" errors="0" time="8.401"><testcase name="REST Request / HTTP Method Fuzzing" time="1.549"/><testcase name="REST Request / Sensitive Files Exposure" time="4.941"/><testcase name="REST Request / Weak Authentication" time="0.31"/><testcase name="Copy of REST Request / HTTP Method Fuzzing" time="1.311"/><testcase name="Copy of REST Request / Weak Authentication" time="0.29"/><system-err><![CDATA[<h3><b>REST Request / HTTP Method Fuzzing Warning</b></h3>
+<pre>Valid HTTP Status Codes: Response status code: 301 is not in acceptable list of status codes</pre><hr/>
+<h3><b>Copy of REST Request / HTTP Method Fuzzing Warning</b></h3>
+<pre>Valid HTTP Status Codes: Response status code: 301 is not in acceptable list of status codes</pre><hr/>
+]]></system-err></testsuite></testsuites>
