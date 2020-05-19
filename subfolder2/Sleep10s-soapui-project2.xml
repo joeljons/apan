@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="d355a00b-ca2f-4661-85f0-1f2650575162" created="2.7.0" activeEnvironment="Default environment" name="Zzzzzzzzzz" resourceRoot="" updated="3.0.0 2019-11-05T14:42:03Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="d355a00b-ca2f-4661-85f0-1f2650575162" created="2.7.0" activeEnvironment="Default environment" name="Zzzzzzzzzz2" resourceRoot="" updated="3.0.0 2019-11-05T14:42:03Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Report Format(s)" value="PDF"/>
@@ -39,11 +39,11 @@
   <con:entry key="Save Project" value="false"/>
 </xml-fragment>]]></con:setting>
   </con:settings>
-  <con:testSuite id="c25a3d1a-1fa6-4613-9bb7-eb0e2a4a34a2" name="TestSuite 1">
+  <con:testSuite id="c25a3d1a-1fa6-4613-9bb7-eb0e2a4a34a2" name="TestSuite 2">
     <con:settings/>
     <con:savedRecentRuns>1</con:savedRecentRuns>
     <con:runType>SEQUENTIAL</con:runType>
-    <con:testCase id="060dc052-9c7d-430c-8e42-cb9eba0df0d2" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0">
+    <con:testCase id="060dc052-9c7d-430c-8e42-cb9eba0df0d2" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 2" searchProperties="true" timeout="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
       <con:testStep type="groovy" name="Groovy Script" id="31a72d13-59c4-4536-b907-a8d629afcb52">
