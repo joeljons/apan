@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="d355a00b-ca2f-4661-85f0-1f2650575161" created="2.7.0" activeEnvironment="Default environment" name="Zzzzzzzzzz" resourceRoot="" updated="3.2.7 2020-05-27T19:48:04Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="d355a00b-ca2f-4661-85f0-1f2650575163" created="2.7.0" activeEnvironment="Default environment" name="D" resourceRoot="" updated="3.2.7 2020-05-27T19:48:04Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings/>
-  <con:testSuite id="c25a3d1a-1fa6-4613-9bb7-eb0e2a4a34a1" name="TestSuite 1">
+  <con:testSuite id="c25a3d1a-1fa6-4613-9bb7-eb0e2a4a34a3" name="TestSuite 1">
     <con:settings/>
     <con:runType>SEQUENTIAL</con:runType>
-    <con:testCase id="060dc052-9c7d-430c-8e42-cb9eba0df0d1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0">
+    <con:testCase id="060dc052-9c7d-430c-8e42-cb9eba0df0d3" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" timeout="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
-      <con:testStep type="delay" name="Delay" id="ff9d59a5-9201-4a8e-ab08-dda06af5abf1">
+      <con:testStep type="delay" name="Delay" id="ff9d59a5-9201-4a8e-ab08-dda06af5abf3">
         <con:settings/>
         <con:config>
-          <delay>10000</delay>
+          <delay>5000</delay>
         </con:config>
       </con:testStep>
       <con:properties/>

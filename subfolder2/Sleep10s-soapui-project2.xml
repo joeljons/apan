@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="d355a00b-ca2f-4661-85f0-1f2650575162" created="2.7.0" activeEnvironment="Default environment" name="Zzzzzzzzzz2" resourceRoot="" updated="3.0.0 2019-11-05T14:42:03Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="d355a00b-ca2f-4661-85f0-1f2650575162" created="2.7.0" activeEnvironment="Default environment" name="Zzzzzzzzzz2" resourceRoot="" updated="3.2.7 2020-05-27T19:48:04Z" encryptionMode="Not encrypted" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="com.eviware.soapui.impl.wsdl.actions.iface.tools.soapui.ProTestRunnerUIAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
   <con:entry key="Report Format(s)" value="PDF"/>
@@ -46,17 +46,10 @@
     <con:testCase id="060dc052-9c7d-430c-8e42-cb9eba0df0d2" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 2" searchProperties="true" timeout="0">
       <con:settings/>
       <con:savedRecentRuns>1</con:savedRecentRuns>
-      <con:testStep type="groovy" name="Groovy Script" id="31a72d13-59c4-4536-b907-a8d629afcb52">
-        <con:settings/>
-        <con:config>
-          <script>log.warn("apan: "+com.eviware.soapui.model.propertyexpansion.PropertyExpansionUtils.globalProperties.getPropertyValue("apan"))
-            com.eviware.soapui.model.propertyexpansion.PropertyExpansionUtils.globalProperties.setPropertyValue("apan", "hej")</script>
-        </con:config>
-      </con:testStep>
       <con:testStep type="delay" name="Delay" id="ff9d59a5-9201-4a8e-ab08-dda06af5abf2">
         <con:settings/>
         <con:config>
-          <delay>100000</delay>
+          <delay>10000</delay>
         </con:config>
       </con:testStep>
       <con:properties/>
